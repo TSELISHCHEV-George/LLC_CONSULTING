@@ -1,276 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Consulting LLC — EU Accounting, Tax & Compliance</title>
-  <link rel="stylesheet" href="assets/styles.css" />
-  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulting LLC</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="container nav">
-      <div class="brand">
-        <img src="assets/logo.png" alt="Consulting LLC" />
-        <span>Consulting LLC</span>
-      </div>
-      <nav class="menu">
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#case-studies">Case Studies</a>
-        <a href="#licensing">Licensing & Documents</a>
-        <a href="#how">How we work</a>
-        <a href="#invoice">Invoice & Payment</a>
-        <a href="#contacts">Contacts</a>
-      </nav>
+  <header class="site-header">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Consulting LLC Logo">
+      <span>Consulting LLC</span>
     </div>
+    <nav class="navbar">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#docs">Licensing & Documents</a>
+      <a href="#work">How we work</a>
+      <a href="#invoice">Invoice & Payment</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
   </header>
 
   <main>
-    <!-- HERO -->
-    <section id="home" class="hero">
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <h1>Accounting, Tax & Compliance for EU businesses</h1>
-          <p>We support SMEs and international companies with transparent monthly plans, GDPR-compliant processes and on-time reporting.</p>
-          <div class="cta-row">
-            <a class="btn btn-primary" href="#licensing">See licenses</a>
-            <a class="btn btn-ghost" href="#contacts">Talk to sales</a>
-          </div>
-        </div>
-        <div class="hero-art">
-          <img src="assets/hero.png" alt="Consulting illustration" />
-        </div>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Accounting, Tax & Compliance for EU businesses</h1>
+        <p>We support SMEs and international companies with transparent monthly plans, GDPR-compliant processes and on-time reporting.</p>
+      </div>
+      <div class="hero-img">
+        <img src="assets/hero.png" alt="Consulting Hero">
       </div>
     </section>
 
-    <!-- SERVICES -->
-    <section id="services" class="section">
-      <div class="container">
-        <h2 class="section-title">Services</h2>
-
-        <div class="grid g3">
-          <article class="card service">
-            <div class="img-tile"><img src="assets/accounting.png" alt="Accounting & Bookkeeping" /></div>
-            <h3>Accounting & Bookkeeping</h3>
-            <ul class="bullets">
-              <li>Monthly bookkeeping</li>
-              <li>Management reporting</li>
-              <li>Financial statements</li>
-            </ul>
-            <div class="mcc">MCC: <strong>8931</strong></div>
-          </article>
-
-          <article class="card service">
-            <div class="img-tile"><img src="assets/vat.png" alt="Tax & VAT Compliance" /></div>
-            <h3>Tax & VAT Compliance</h3>
-            <ul class="bullets">
-              <li>VAT registration & returns</li>
-              <li>Corporate tax advisory</li>
-              <li>EC Sales / Intrastat</li>
-            </ul>
-            <div class="mcc">MCC: <strong>8931</strong></div>
-          </article>
-
-          <article class="card service">
-            <div class="img-tile"><img src="assets/incorporation.png" alt="Business Incorporation" /></div>
-            <h3>Business Incorporation</h3>
-            <ul class="bullets">
-              <li>Company formation</li>
-              <li>Registered address</li>
-              <li>Admin & secretarial</li>
-            </ul>
-            <div class="mcc">MCC: <strong>7399</strong></div>
-          </article>
-
-          <article class="card service">
-            <div class="img-tile"><img src="assets/payroll.png" alt="Payroll & HR" /></div>
-            <h3>Payroll & HR</h3>
-            <ul class="bullets">
-              <li>Payroll processing</li>
-              <li>Contracts drafting</li>
-              <li>Social contributions</li>
-            </ul>
-            <div class="mcc">MCC: <strong>7399</strong></div>
-          </article>
-
-          <article class="card service">
-            <div class="img-tile"><img src="assets/legal.png" alt="Legal & Compliance" /></div>
-            <h3>Legal & Compliance</h3>
-            <ul class="bullets">
-              <li>GDPR policies</li>
-              <li>Contract review</li>
-              <li>Risk assessment</li>
-            </ul>
-            <div class="mcc">MCC: <strong>8111</strong></div>
-          </article>
-
-          <article class="card service">
-            <div class="img-tile"><img src="assets/advisory.png" alt="Financial Advisory" /></div>
-            <h3>Financial Advisory</h3>
-            <ul class="bullets">
-              <li>Cash-flow management</li>
-              <li>Investment structuring</li>
-              <li>Treasury optimization</li>
-            </ul>
-            <div class="mcc">MCC: <strong>7392</strong></div>
-          </article>
+    <section id="services">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="assets/accounting.png" alt="Accounting">
+          <h3>Accounting & Bookkeeping</h3>
+          <p>MCC 8931</p>
+          <ul>
+            <li>Monthly bookkeeping</li>
+            <li>Management reporting</li>
+            <li>Financial statements</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="assets/vat.png" alt="Tax & VAT">
+          <h3>Tax & VAT Compliance</h3>
+          <p>MCC 8931</p>
+          <ul>
+            <li>VAT registration & returns</li>
+            <li>Corporate tax advisory</li>
+            <li>EC Sales/Intrastat</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="assets/incorporation.png" alt="Business Incorporation">
+          <h3>Business Incorporation</h3>
+          <p>MCC 7399</p>
+          <ul>
+            <li>Company formation</li>
+            <li>Registered address</li>
+            <li>Admin & secretarial</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="assets/payroll.png" alt="Payroll & HR">
+          <h3>Payroll & HR</h3>
+          <p>MCC 7399</p>
+          <ul>
+            <li>Payroll processing</li>
+            <li>Contracts drafting</li>
+            <li>Social contributions</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="assets/legal.png" alt="Legal & Compliance">
+          <h3>Legal & Compliance</h3>
+          <p>MCC 8111</p>
+          <ul>
+            <li>GDPR policies</li>
+            <li>Contract review</li>
+            <li>Risk assessment</li>
+          </ul>
+        </div>
+        <div class="card">
+          <img src="assets/advisory.png" alt="Financial Advisory">
+          <h3>Financial Advisory</h3>
+          <p>MCC 7392</p>
+          <ul>
+            <li>Cash-flow management</li>
+            <li>Investment structuring</li>
+            <li>Treasury optimization</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- PRICING -->
-    <section id="pricing" class="section">
-      <div class="container">
-        <h2 class="section-title">Pricing</h2>
-
-        <div class="grid g3 pricing-grid">
-          <article class="price-card">
-            <h3>Starter</h3>
-            <div class="price-sub">from <strong>€299 / month</strong></div>
-            <ul class="bullets">
-              <li>Up to 200 tx / month</li>
-              <li>Monthly VAT return</li>
-              <li>Email support</li>
-            </ul>
-            <div class="pill">from €490 / month if quarterly</div>
-          </article>
-
-          <article class="price-card featured">
-            <h3>Growth</h3>
-            <div class="price-sub">from <strong>€699 / month</strong></div>
-            <ul class="bullets">
-              <li>Up to 1,000 tx / month</li>
-              <li>Quarterly tax advisory</li>
-              <li>Priority support</li>
-            </ul>
-            <div class="pill">from €990 / month (multi-entity add-on)</div>
-          </article>
-
-          <article class="price-card">
-            <h3>Scale</h3>
-            <div class="price-sub"><strong>Custom</strong></div>
-            <ul class="bullets">
-              <li>High-volume, multi-country</li>
-              <li>Dedicated account manager</li>
-              <li>Custom reporting</li>
-            </ul>
-            <div class="pill">on request</div>
-          </article>
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Starter</h3>
+          <p>from €299 / month</p>
+          <ul>
+            <li>Up to 200 tx / month</li>
+            <li>Monthly VAT return</li>
+            <li>Email support</li>
+          </ul>
         </div>
-
-        <p class="note">All plans include GDPR-compliant processing and on-time reporting. Custom quotes available.</p>
-      </div>
-    </section>
-
-    <!-- CASE STUDIES -->
-    <section id="case-studies" class="section">
-      <div class="container">
-        <h2 class="section-title">Case Studies</h2>
-
-        <div class="grid g3 case-grid">
-          <article class="case-note">
-            <header>
-              <div class="from">Fintech Startup (DE)</div>
-              <div class="stamp">Ref. #A102 • Q2</div>
-            </header>
-            <p>We cleaned historic data, set up OSS & VAT workflows, and automated quarterly filings across 7 EU markets.</p>
-            <p class="result"><strong>Result:</strong> risk removal and −60% time on compliance.</p>
-          </article>
-
-          <article class="case-note">
-            <header>
-              <div class="from">SaaS team (12 FTE)</div>
-              <div class="stamp">Ref. #B214 • Q3</div>
-            </header>
-            <p>Implemented single-date payroll, deadlines calendar, and contract templates across 3 countries.</p>
-            <p class="result"><strong>Result:</strong> 0 missed deadlines, clean audit trail.</p>
-          </article>
-
-          <article class="case-note">
-            <header>
-              <div class="from">EU Distributor</div>
-              <div class="stamp">Ref. #C331 • Q1</div>
-            </header>
-            <p>Built chart of accounts, allocation rules, monthly P&amp;L/CF and KPI dashboards.</p>
-            <p class="result"><strong>Result:</strong> +18% gross margin in two quarters.</p>
-          </article>
+        <div class="card">
+          <h3>Growth</h3>
+          <p>from €699 / month</p>
+          <ul>
+            <li>Up to 1,000 tx / month</li>
+            <li>Quarterly tax advisory</li>
+            <li>Priority support</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Scale</h3>
+          <p>Custom</p>
+          <ul>
+            <li>High-volume, multi-entity</li>
+            <li>Dedicated account manager</li>
+            <li>Custom reporting</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- LICENSING -->
-    <section id="licensing" class="section">
-      <div class="container">
-        <h2 class="section-title">Licensing & Documents</h2>
-        <ul class="docs">
-          <li><a href="assets/docs/push2pay-certificate-of-incorporation-2023-11-09.pdf" target="_blank">Certificate of Incorporation</a></li>
-          <li><a href="assets/docs/push2pay-articles-of-incorporation-2023-11-09.pdf" target="_blank">Articles of Association</a></li>
-          <li><a href="assets/docs/push2pay-profile-report-2024-12-29.pdf" target="_blank">Profile Report</a></li>
-          <li><a href="assets/docs/push2pay-fintrac-msb-registration-2024-02-07.pdf" target="_blank">FINTRAC MSB Registration</a></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- HOW WE WORK -->
-    <section id="how" class="section">
-      <div class="container">
-        <h2 class="section-title">How we work</h2>
-
-        <ol class="how-steps">
-          <li><span class="step">1</span> <span class="line">Discovery: 30-minute call to scope services, MCC fit and tax footprint.</span></li>
-          <li><span class="step">2</span> <span class="line">Onboarding: KYC package, engagement letter, secure data access.</span></li>
-          <li><span class="step">3</span> <span class="line">Setup: Chart of accounts, VAT/OSS config, reporting calendar.</span></li>
-          <li><span class="step">4</span> <span class="line">Operate: Monthly close, filings, dashboards, quarterly reviews.</span></li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- INVOICE & PAYMENT -->
-    <section id="invoice" class="section">
-      <div class="container">
-        <h2 class="section-title">Invoice & Payment</h2>
-
-        <h3>Invoicing</h3>
-        <p>Invoices are issued monthly in EUR. Description includes service period, MCC and workload metrics.</p>
-
-        <h3>Payment methods</h3>
-        <ul class="bullets">
-          <li>SEPA transfer</li>
-          <li>EU/UK cards (Visa/Mastercard)</li>
-          <li>Corporate wallets (upon request)</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- CONTACTS -->
-    <section id="contacts" class="section">
-      <div class="container">
-        <h2 class="section-title">Contacts</h2>
-
-        <div class="contacts-plain">
-          <p><strong>Email:</strong> info@consulting-llc.eu</p>
-          <p><strong>Phone:</strong> +372 000 0000</p>
-          <p><strong>Hours:</strong> Mon–Fri, 09:00–18:00 CET</p>
-
-          <p class="mt"><strong>Registered details</strong><br/>
-            Billing Entity: Consulting LLC<br/>
-            Reg № 123456 • VAT № EU123456<br/>
-            Registered Office: [Street, Suite], [City], [ZIP], [Country]
-          </p>
+    <section id="case-studies">
+      <h2>Case Studies</h2>
+      <div class="grid">
+        <div class="card bordered">
+          <p><strong>VAT Compliance for SaaS:</strong> Risk removal and –60% time on compliance.</p>
+        </div>
+        <div class="card bordered">
+          <p><strong>Payroll & HR for a SaaS team:</strong> 0 missed deadlines, clean audit trail.</p>
+        </div>
+        <div class="card bordered">
+          <p><strong>Management reporting for distributor:</strong> +18% gross margin in 2 quarters.</p>
         </div>
       </div>
+    </section>
+
+    <section id="docs">
+      <h2>Licensing & Documents</h2>
+      <ul class="docs-list">
+        <li><a href="assets/docs/certificate-of-incorporation.pdf">Certificate of Incorporation</a></li>
+        <li><a href="assets/docs/articles-of-association.pdf">Articles of Association</a></li>
+        <li><a href="assets/docs/trade-register-extract.pdf">Trade Register Extract</a></li>
+        <li><a href="assets/docs/tax-residency.pdf">Tax Residency Certificate</a></li>
+        <li><a href="assets/docs/vat-registration.pdf">VAT Registration Certificate</a></li>
+        <li><a href="assets/docs/fintrac-msb.pdf">FINTRAC MSB Registration</a></li>
+        <li><a href="assets/docs/gdpr-policy.pdf">Privacy Policy (GDPR)</a></li>
+        <li><a href="assets/docs/aml-kyc-policy.pdf">AML / CTF Policy</a></li>
+        <li><a href="assets/docs/refunds-policy.pdf">Refunds & Cancellations Policy</a></li>
+        <li><a href="assets/docs/terms-of-service.pdf">Terms of Service</a></li>
+        <li><a href="assets/docs/cookie-policy.pdf">Cookie Policy</a></li>
+      </ul>
+    </section>
+
+    <section id="work">
+      <h2>How we work</h2>
+      <ol class="steps">
+        <li><strong>Discovery:</strong> 30-minute call to scope services, MCC fit and tax footprint.</li>
+        <li><strong>Onboarding:</strong> KYC package, engagement letter, secure data access.</li>
+        <li><strong>Setup:</strong> Chart of accounts, VAT/OSS config, reporting calendar.</li>
+        <li><strong>Operate:</strong> Monthly close, filings, dashboards, quarterly reviews.</li>
+      </ol>
+    </section>
+
+    <section id="invoice">
+      <h2>Invoice & Payment</h2>
+      <p>Invoices are issued monthly in EUR. Description includes service period, MCC and workload metrics.</p>
+      <h3>Payment methods:</h3>
+      <ul>
+        <li>SEPA transfer</li>
+        <li>SWIFT transfer</li>
+        <li>Card payment (on request)</li>
+      </ul>
+    </section>
+
+    <section id="contacts">
+      <h2>Contacts</h2>
+      <p>Email: info@consulting-llc.eu</p>
+      <p>Phone: +372 000 0000</p>
+      <p>Hours: Mon–Fri, 09:00–18:00 CET</p>
+      <p>Registered Office: [Street, Suite], [City], [ZIP], [Country]</p>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© Consulting LLC — EU Accounting & Compliance</div>
-      <div class="footer-links">
-        <a href="#licensing">Documents</a>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>
